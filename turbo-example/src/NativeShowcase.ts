@@ -1,6 +1,8 @@
 import type { TurboModule } from 'react-native';
 import { TurboModuleRegistry } from 'react-native';
 
+// define lib contracts 
+// these functions are implemented in Java/Kotlin and supported by the native module
 export interface Spec extends TurboModule {
   reverseString: (str: string) => string;
 
